@@ -160,6 +160,21 @@ export default function Portfolio() {
             </svg>
           </button>
         </div>
+        
+        {/* Let's Create Together Section */}
+        <div className="mt-16 lg:mt-20 text-center">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#5776E5] leading-tight mb-6 lg:mb-8 whitespace-nowrap">
+            Let's Create Together
+          </h2>
+          <div className="max-w-[1145px] mx-auto mb-0 px-4 sm:px-6 md:px-8 lg:px-12">
+            <p className="text-[26px] font-medium text-[#4E4E4E] leading-[177%] text-left">
+              Ready to bring your vision to life? I'd love to hear about your project and discuss
+            </p>
+            <p className="text-[24px] font-medium text-[#4E4E4E] leading-[177%] text-center">
+              how we can create something amazing together.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   )
